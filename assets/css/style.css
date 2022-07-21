@@ -9,23 +9,90 @@
 body{
     font-family: montserrat, sans-serif;
     font-weight: 300;
-    color: #000;
+    color: rgb(17, 17, 30);
+    background-color: rgb(45, 46, 62);
 }
 
 /* logo and heading */
 
+
 #logo {
     float: left;
     font-size: 150%;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 h1 {
     font-family: montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #030303;
+    color: rgb(6, 2, 23);
 }
+
+/* navigation menu */
+
+#navigation-menu, #logo {
+    color: #fff;
+    line-height: 30px;
+    padding: 10px;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 2px;
+    
+}
+
+#navigation-menu li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+#navigation-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* main image */
+
+#main-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#main-photo {
+    background: url('..assets/photos/James-Island-Gambia.jpeg') no-repeat center center;
+    height: 600px;
+    width: 100%;
+
+}
+
+#cover-text {
+    font-size: 140%;
+    font-family: monstserrat, sans-serif;
+    letter-spacing: 4px;
+
+    width: 500px;
+    height: 400px;
+
+    padding-top: 30px;
+    padding-left: 20px;
+
+    background-color: rgba(109, 128, 162, 0.6);
+
+    bottom: 30px;
+    right: 200px;
+
+    position: absolute;
+    color: #fff;
+    border: 1px solid black;
+}
+
+/* Ethos */
 
 
 
