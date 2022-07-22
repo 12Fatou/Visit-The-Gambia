@@ -137,9 +137,29 @@ h1 {
 
 /* footer */
 
-#test {
+footer {
     background-color: #D9E1F1;
-    height: 200px;
+    height: 125px;
+    margin: 0 auto;
+}
+
+
+
+
+#media {
+    text-align: center;
+}
+
+#media li {
+    display: inline;
+    list-style-type: none;
+    padding: 5%;
+    margin-top: 0 auto;
+
+}
+
+#media a{
+    text-decoration: none;
 }
 
 
