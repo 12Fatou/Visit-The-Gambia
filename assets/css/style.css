@@ -9,17 +9,26 @@
 body{
     font-family: montserrat, sans-serif;
     font-weight: 300;
-    color: rgb(17, 17, 30);
-    background-color: rgb(45, 46, 62);
+    background-color: #000;
 }
 
 /* logo and heading */
+
+header{
+    color: #fff;
+    line-height: 30px;
+    padding: 30px;
+    height: 30px;
+    background-color: #D9E1F1;
+
+}
 
 
 #logo {
     float: left;
     font-size: 150%;
     margin-left: 30px;
+    color: #000;
 }
 
 h1 {
@@ -27,19 +36,15 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: rgb(6, 2, 23);
+    
 }
 
-/* navigation menu */
-
-#navigation-menu, #logo {
-    color: #fff;
-    line-height: 30px;
-    padding: 10px;
-}
+/* navigation menu links */
 
 #menu {
     font-size: 120%;
     letter-spacing: 2px;
+    color: #000;
     
 }
 
@@ -92,9 +97,50 @@ h1 {
     border: 1px solid black;
 }
 
-/* Ethos */
+/* Middle */
+
+#main-middle {
+    margin: 90px;
+}
+
+#middle-row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 15px;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
 
+
+.left-paragraph {
+    float: left;
+    line-height: 25px;
+    clear: both;
+    font-size: 100%;
+
+    padding: 24px;
+    width: 50%;
+    height: 100px;
+    width: 600px;
+    color: #fff;
+}
+
+.left-image{
+    border: 3px solid #D9E1F1;
+    margin: 15px;
+}
+
+/* fact about */
+
+/* footer */
+
+#test {
+    background-color: #D9E1F1;
+    height: 200px;
+}
 
 
 
