@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
+
 
 * {
     padding: 0;
@@ -32,7 +33,7 @@ header{
 }
 
 h1 {
-    font-family: montserrat, sans-serif;
+    font-family: Dancing Script, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: rgb(6, 2, 23);
@@ -118,8 +119,6 @@ h1 {
     padding-bottom: 40px;
 }
 
-
-
 .left-paragraph {
     float: left;
     line-height: 25px;
@@ -134,11 +133,9 @@ h1 {
 }
 
 .left-image{
-    border: 3px solid #D9E1F1;
     margin: 15px;
+    border: 1px solid #D9E1F1;
 }
-
-/* fact about */
 
 /* footer */
 
@@ -146,6 +143,7 @@ footer {
     background-color: #D9E1F1;
     height: 125px;
     margin: 0 auto;
+    
 }
 
 
@@ -153,18 +151,26 @@ footer {
 
 #media {
     text-align: center;
+    padding: 40px;
+   
+    
 }
 
 #media li {
     display: inline;
     list-style-type: none;
-    padding: 5%;
-    margin-top: 0 auto;
+    padding-top: 15px;
+
+    margin: 30px;
+
+   
+    display: inline;
 
 }
 
 #media a{
     text-decoration: none;
+   
 }
 
 
