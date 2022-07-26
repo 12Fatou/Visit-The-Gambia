@@ -165,6 +165,12 @@ h1 {
     border: 1px solid black;
 }
 
+.gambia-tribe a {
+    text-decoration: none;
+    color: rgb(97, 165, 52);
+    font-size: 20px;
+}
+
 /* video */
 
 #wrapper { 
@@ -173,7 +179,7 @@ h1 {
     margin: 0 auto;
 
     display: inline;
-    margin-left: 60px;
+    margin-left: 65px;
 }
 
 #gambian-song { 
