@@ -170,9 +170,13 @@ h1 {
     font-size: 20px;
 }
 
-.ethnicity-video {
-    width: 800px;
-    margin: auto;
+#ethnicity-video {
+    margin: 30px;
+}
+
+#about-ethnicity-video {
+    width: 600px;
+    height: 500px;
 }
 
 /* video */
@@ -305,3 +309,114 @@ footer {
     color: #fff;
 }
 
+/* media queries */
+
+/* for larger to medium screen size from 12000px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #middle-section {
+        width: 65%;
+        height: 1700px;
+        margin: 0 auto;
+    }
+
+    #main-middle {
+        padding: 40px 0;
+        margin: 0;
+    }
+
+    #gambian-video {
+        width: fit-content;
+    }
+
+    #gambian-song{
+        width: fit-content;
+    }
+}
+
+/* For media screen sizes from 850px wide and down */
+@media screen and (max-width: 850px) {
+
+    header {
+    height: 120px;
+    background-color: #D9E1F1;
+    width: 350px;
+    }
+
+    #menu > li {
+        clear: both;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 40px;
+        line-height: 25px;
+       
+    }
+
+    #cover-text {
+        width: fit-content;
+        height: fit-content;
+        left: 3px;
+    }
+    
+    #middle-section {
+        width: 30%;
+        height: 2050px;
+        margin: 0 auto;
+        float: left;
+    }
+
+    .left-paragraph {
+    padding: 24px;
+    width: 300px;
+    height: 200px;
+    }
+
+    #wrapper {
+        width: 300px;
+        height: 300px;
+    }
+
+    .left-image {
+        margin-top: 80px;
+    }
+
+    footer {
+        height: 160px;
+        width: 400px;
+    }
+    
+/* ethnic group */
+
+    .tribe-group {
+        height: 1600px;
+    }
+
+
+    .gambia-tribe {
+        width: 300px;
+        height: 1500px;
+        left: 30px;
+       padding-top: 90px;
+       margin-top: 90px;
+       bottom: 50%;
+    }
+
+    #about-ethnicity-video{
+        height: 500px;
+        width: 389px;
+    }
+
+
+    /* sign up */
+
+    #form {
+        height: 1100px;
+        margin-bottom: 1100px;
+    }
+    
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+}
+}
