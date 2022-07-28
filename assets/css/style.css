@@ -334,13 +334,13 @@ footer {
     }
 }
 
-/* For media screen sizes from 850px wide and down */
-@media screen and (max-width: 850px) {
+/* For media screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
 
     header {
-    height: 120px;
+    height: 130px;
     background-color: #D9E1F1;
-    width: 350px;
+    width: 330px;
     }
 
     #menu > li {
@@ -373,7 +373,7 @@ footer {
 
     #wrapper {
         width: 300px;
-        height: 300px;
+        height: 100px;
     }
 
     .left-image {
@@ -382,7 +382,7 @@ footer {
 
     footer {
         height: 160px;
-        width: 400px;
+        width: 428px;
     }
     
 /* ethnic group */
@@ -396,15 +396,17 @@ footer {
         width: 300px;
         height: 1500px;
         left: 30px;
-       padding-top: 90px;
+       padding-top: 30px;
        margin-top: 90px;
        bottom: 50%;
     }
 
     #about-ethnicity-video{
         height: 500px;
-        width: 389px;
+        width: 400px;
     }
+
+
 
 
     /* sign up */
