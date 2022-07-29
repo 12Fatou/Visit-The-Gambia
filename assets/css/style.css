@@ -9,8 +9,9 @@
 
 body{
     font-family: montserrat, sans-serif;
-    background-color: rgb(24, 67, 21);
+    background-color: rgb(173, 189, 172);
     color: #000;
+    display: block;
 }
 
 /* logo and heading */
@@ -27,7 +28,7 @@ header{
 #logo {
     float: left;
     font-size: 150%;
-    margin-left: 30px;
+    margin-left: 5px;
     color: #000;
 }
 
@@ -50,7 +51,7 @@ h1 {
 
 #navigation-menu li {
     float: right;
-    margin-right: 30px;
+    margin-right: 60px;
     list-style-type: none;
 }
 
@@ -336,21 +337,22 @@ footer {
 }
 
 /* For media screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 600px) {
 
     header {
     height: 130px;
     background-color: #D9E1F1;
     width: 100%;
+    
     }
 
-    #menu > li {
+    #navigation-menu {
+        
         clear: both;
         float: left;
         margin-left: 30px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         line-height: 25px;
-       
     }
 
     #cover-text {
@@ -361,7 +363,7 @@ footer {
     
     #middle-section {
         width: 30%;
-        height: 2050px;
+        height: 2030px;
         margin: 0 auto;
         float: left;
     }
@@ -382,29 +384,41 @@ footer {
     }
 
     footer {
-        height: 160px;
+        height: 100%;
         width: 100%;
     }
     
 /* ethnic group */
 
+
+.ethnics {
+    height: 1900px;
+}
+
     .tribe-group {
-        height: 1600px;
+        height: 100%;
+        width: 400px;
     }
 
 
     .gambia-tribe {
-        width: 300px;
+        width: 360px;
         height: 1500px;
-        left: 30px;
+        left: 5px;
        padding-top: 25px;
-       margin-top: 90px;
-       bottom: 50%;
+       margin-top: 400px;
+       bottom: 800px;
+    }
+
+    #ethnicity-video {
+        
+        margin-right: 60px;
+
     }
 
     #about-ethnicity-video{
         height: 500px;
-        width: 400px;
+        width: 300px;
     }
 
 
@@ -413,8 +427,12 @@ footer {
     /* sign up */
 
     #form {
-        height: 1100px;
+        
         margin-bottom: 1100px;
+    }
+
+    .signup-newsletter {
+        height: 700px;
     }
     
 }
