@@ -311,7 +311,7 @@ footer {
 
 /* media queries */
 
-/* for larger to medium screen size from 12000px wide and down */
+/* for larger to medium screen size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
     #middle-section {
