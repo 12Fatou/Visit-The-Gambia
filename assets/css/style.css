@@ -397,7 +397,7 @@ footer {
         width: 300px;
         height: 1500px;
         left: 30px;
-       padding-top: 30px;
+       padding-top: 25px;
        margin-top: 90px;
        bottom: 50%;
     }
@@ -417,9 +417,4 @@ footer {
         margin-bottom: 1100px;
     }
     
-@media screen and (max-width: 800px) {
-    #photos {
-        column-count: 2;
-    }
-}
 }
