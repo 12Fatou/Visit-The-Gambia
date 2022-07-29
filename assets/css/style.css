@@ -21,6 +21,7 @@ header{
     padding: 30px;
     height: 30px;
     background-color: #D9E1F1;
+    width: 100%;
 }
 
 #logo {
@@ -340,7 +341,7 @@ footer {
     header {
     height: 130px;
     background-color: #D9E1F1;
-    width: 330px;
+    width: 100%;
     }
 
     #menu > li {
@@ -382,7 +383,7 @@ footer {
 
     footer {
         height: 160px;
-        width: 428px;
+        width: 100%;
     }
     
 /* ethnic group */
