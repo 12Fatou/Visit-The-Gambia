@@ -337,7 +337,7 @@ footer {
 }
 
 /* For media screen sizes from 950px wide and down */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
 
     header {
     height: 130px;
@@ -410,11 +410,12 @@ footer {
        bottom: 800px;
     }
 
-    #ethnicity-video {
+    #gambian-song {
+        margin: 40px;
         
-        margin-right: 60px;
-
+        
     }
+
 
     #about-ethnicity-video{
         height: 500px;
