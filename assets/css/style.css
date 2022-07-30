@@ -11,7 +11,7 @@ body{
     font-family: montserrat, sans-serif;
     background-color: rgb(173, 189, 172);
     color: #000;
-    display: block;
+    overflow-x: hidden !important;
 }
 
 /* logo and heading */
@@ -20,9 +20,10 @@ header{
     color: #fff;
     line-height: 30px;
     padding: 30px;
-    height: 30px;
+    height: 90px;
     background-color: #D9E1F1;
     width: 100%;
+    
 }
 
 #logo {
@@ -30,53 +31,59 @@ header{
     font-size: 150%;
     margin-left: 5px;
     color: #000;
-}
 
-h1 {
     font-family: Dancing Script, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: rgb(6, 2, 23);
-    
 }
+
+
 
 /* navigation menu links */
 
-#menu {
-    font-size: 120%;
-    letter-spacing: 2px;
-    color: #000;
+
+    #menu {
+        font-size: 120%;
+        letter-spacing: 2px;
+        color: #000;
+        right: 20px;
+        margin-right: 90px;
+        
+        
+    }
     
-}
-
-#navigation-menu li {
-    float: right;
-    margin-right: 60px;
-    list-style-type: none;
-}
-
-#navigation-menu li:hover {
-    color: #fff;
-    background-color: rgb(24, 67, 21);
-}
-
-#navigation-menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
+    #menu li {
+        float: right;
+       
+        list-style-type: none;
+        
+        padding: 10px;
+    }
+    
+    
+    #navigation-menu li:hover {
+        color: #fff;
+        background-color: rgb(24, 67, 21);
+    }
+    
+    #navigation-menu a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
 /* main image */
 
 #main-outer {
     height: 600px;
     width: 100%;
+    
     overflow: hidden;
 
     position: relative;
 }
 
 #main-photo {
-    background: url('..assets/photos/James-Island-Gambia.jpeg') no-repeat center center;
+    
     height: 600px;
     width: 100%;
 
@@ -106,35 +113,46 @@ h1 {
 /* Middle */
 
 #main-middle {
-    margin: 90px;
-}
-
-#middle-row {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 50px;
-    margin-left: 15px;
-
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin: 100px;
 }
 
 .left-paragraph {
     float: left;
     line-height: 25px;
-    clear: both;
+   
     font-size: 100%;
 
     padding: 24px;
-    width: 50%;
+    
     height: 100px;
     width: 600px;
-    color: #fff;
+    color: rgb(74, 72, 72);
 }
 
-.left-image{
+#capital-image{
     margin: 15px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    width: 450px;
+    height: 250px;
+}
+
+#agric-image {
+    margin: 10px;
+    margin-bottom: 40px;
+    margin-left: 70px;
     border: 1px solid #D9E1F1;
+    width: 450px;
+    height: 250px;
+}
+
+#tourist-image{
+    margin: 15px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    border: 1px solid #D9E1F1;
+    width: 450px;
+    height: 250px;
 }
 
 /* ethnic group */
@@ -159,7 +177,7 @@ h1 {
 
     bottom: 30px;
     right: 200px;
-    top: 100px;
+    top: 150px;
 
     position: absolute;
     color: #fff;
@@ -275,6 +293,7 @@ footer {
     background-color: #D9E1F1;
     height: 125px;
     margin: 0 auto;
+    width: 100%;
     
 }
 
@@ -315,7 +334,7 @@ footer {
 
 /* for larger to medium screen size from 1200px wide and down */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
     #middle-section {
         width: 65%;
         height: 1700px;
@@ -336,8 +355,12 @@ footer {
     }
 }
 
-/* For media screen sizes from 950px wide and down */
-@media screen and (max-width: 850px) {
+/* For media screen sizes from 600px wide and down */
+@media screen and (max-width: 700px) {
+
+    body {
+        overflow-x: hidden !important;
+    }
 
     header {
     height: 130px;
@@ -346,14 +369,20 @@ footer {
     
     }
 
-    #navigation-menu {
+    #menu{
         
         clear: both;
         float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
+        margin-left: 10px;
         line-height: 25px;
     }
+
+    #menu li {
+        
+        padding: 2px;
+        padding-right: 40px;
+    }
+
 
     #cover-text {
         width: fit-content;
@@ -363,7 +392,7 @@ footer {
     
     #middle-section {
         width: 30%;
-        height: 2030px;
+        height: 1720px;
         margin: 0 auto;
         float: left;
     }
@@ -371,16 +400,28 @@ footer {
     .left-paragraph {
     padding: 24px;
     width: 300px;
-    height: 200px;
+    height: 250px;
     }
 
     #wrapper {
         width: 300px;
         height: 100px;
+        margin: auto;
     }
 
-    .left-image {
-        margin-top: 80px;
+    #capital-image{
+        width: 200px;
+        height: 150px;
+    }
+    
+    #agric-image {
+        width: 200px;
+        height: 150px;
+    }
+    
+    #tourist-image{
+        width: 200px;
+        height: 150px;
     }
 
     footer {
