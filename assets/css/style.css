@@ -339,15 +339,24 @@ footer {
 
 /* for larger to medium screen size from 1000px wide and down */
 
-@media screen and (max-width: 1000px) {
+@media all and (max-width: 990px) {
 
     body {
         overflow-x: hidden !important;
     }
 
+    #menu{
+        
+        clear: both;
+        float: left;
+        margin-left: 10px;
+        line-height: 25px;
+    }
+
+
     #middle-section {
         width: 65%;
-        height: 1000px;
+        height: 1600px;
         margin: 0 auto;
     }
 
@@ -363,10 +372,53 @@ footer {
     #gambian-song{
         width: fit-content;
     }
+
+    /* ethnic groups */
+
+    .ethnics {
+        height: 1950px;
+    }
+
+    .gambia-tribe {
+        width: 600px;
+        height: 1300px;
+        right: 20px;
+
+        text-align: center;
+        margin-left: 200px;
+        padding: 50px;
+       padding-top: 30px;
+       margin-top: 550px;
+
+       
+    }
+
+    #form {
+        
+        margin-bottom: 200px;
+        
+
+    }
+
+    #signup-newsletter {
+        height: 400px;
+        margin-bottom: 450px;
+    }
+    
+    #stone-circle-image {
+        height: 600px;
+        width: 100%;
+    }
+
+    footer {
+ 
+            height: 100%;
+            width: 100%;
+    }
 }
 
 /* For media screen sizes from 600px wide and down */
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
 
     body {
         overflow-x: hidden !important;
@@ -484,7 +536,7 @@ footer {
         margin-bottom: 1100px;
     }
 
-    .signup-newsletter {
+    #signup-newsletter {
         height: 700px;
     }
     
