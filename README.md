@@ -1,108 +1,190 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Gambia, Visit The Smiling Coast.
 
-Welcome 12Fatou,
+Visit The Smiling Coast, is a site to learn about The Gambia, smallest country in West Africa. 
+The site is for people that want to know about The Gambia, it's people and culture. Visit The Smiling Coast,
+will be useful for people that want to travel to Gambia, move to The Gambia or just curious about The smallest
+country in West Africa that is given the name SMILING COAST OF AFRICA.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<img src="assets/photos/Screenshot-web.jpeg.png" alt="responsive design">
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+# UX Development
+## Project Goal
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The website goal is to promote about The Gambia, the beautiful ethnic groups, tourism in the country and so on.
 
-`python3 -m http.server`
+## Target Audience
 
-A blue button should appear to click: _Make Public_,
+* Travelers, Tourist, Returnees, Students.
 
-Another blue button should appear to click: _Open Browser_.
+# Design
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Colour Scheme
+The colour was inspired by the nature and ocean in The Gambia, Green - NATURE, Blue - OCEAN, White - PEACE.
+<img src="assets/photos/Screenshot-color.png" alt="color scheme">
+Color was created using [Muzli colors](https://colors.muz.li/)
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## Imagery
+The photos featured throughout the page were obtain from family and free image providers such as [Pexels](https://www.pexels.com/)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+## Videos
+The videos feetured throughout the site were obtain from [Youtube](https://www.youtube.com/)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Wireframe
+The wireframes were produce using [Wireframepro](https://wireframepro.mockflow.com/)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<img src="assets/photos/Page_1.png" width="600" alt="Wireframe">
 
-------
+<img src="assets/photos/Page_2.png" width="600" alt="Wireframe">
 
-## Release History
+<img src="assets/photos/Page_3.png" width="600" alt="Wireframe">
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+<br>
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+# Features
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Navigation Bar
+* The navigation bar is responsive and fixed at the top of the page where it shows the logo and name on the right.
+* The navigation links on the right take the user to different sections on the same page.
+<img src="assets/photos/navigation-bar.png" width="600" alt="Navigation Bar">
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## The landing page image
+* The page include an image of Jame Island a historic site in The Gambia and text overly for users to see a littl description about The Gambia.
+<img src="assets/photos/james-island-section.png" width="600" alt="landing page image">
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Feature Section
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+* It tells more about the Gambia, the capital city Banjul, Gambias economy and Tourism and it saws beautiful picture of Banjul and Agriculture and Tourist place Makasutu.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<img src="assets/photos/middle-section.png" width="600" alt="Features section">
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Videos
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* The first video is a song about The Gambia it is sang in Mandinka Languege and and The second video is fun facts about the Gambia, brief description and the videos are there to make the users understand more about the country. The second video is choosen because it is a very fun way to learn about a country without being bored. The videos are from [Youtube](https://www.youtube.com/).
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<img src="assets/photos/videos.png" width="600" alt="videos about the Gambia">
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Ethnic Groups
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* The page includes image of different ethnic groups together dancing and text overly for users to see the largest ethnic group in The Gambia and there are links to learn more about the ethnic group.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<img src="assets/photos/ethnic-group.png" width="600" alt="ethnic groups">
 
-------
+## Video about Ethnic Groups in The Gambia
 
-## FAQ about the uptime script
+* The video is for users to learn more ethnic groups in The Gambia in a fun way and not get bored, the video is from [Youtube](https://www.youtube.com/).
 
-**Why have you added this script?**
+<img src="assets/photos/video.png" width="600" alt="videos about ethnic group">
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+## Newsletter
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* The site will be sending newsletter to users about things to do in The Gambia and other exciting things about The Gambia.
+<img src="assets/photos/newsletter.png" width="600" alt="sign up newsletter">
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Footer 
+* The users can visit us on our social media sites
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+<img src="assets/photos/footer.png" width="600" alt="socials">
 
-**So….?**
+<br>
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+# Languages Used
+* HTML and CSS were used to create this website
 
-**Can I opt out?**
+# Frameworks, Libraries & Programs Used
+* [Wireframepro](https://wireframepro.mockflow.com/): For Wireframe.
+* [Muzli colors](https://colors.muz.li/): For choosing colours and colour inspiration.
+* [Font Awesome](https://fontawesome.com/): For icons used in the site.
+* [Google Fonts](https://fonts.google.com/): For different font style.
+* [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/): Used extensively to experiment with grid and general responsiveness.
+* [Gitpod](https://gitpod.io/workspaces): Used to create and host the website.
+* [Github](https://github.com/): Used to deploy the website.
+* [Am I responsive](https://ui.dev/amiresponsive): To create an image displaying the home page on various devices.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+# Deployment
+This site was disployed to Github pages.
 
-**Anything more?**
+## Steps to deploye
+* Navigate to the settings tab in the GitHub repository
+* Once in settings, navigate to the pages tab on the left of the page
+* Under source, select branch ‘master’ and then click ‘save’
+* Page will no automatically refresh and show a detailed ribbon display to indicate deployment
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+# Test
+## Code Validation
 
----
+## W3C HTML Validator
+Index.html Page
 
-Happy coding!
+<img src="assets/photos/index-html.png" width="600" alt="code validatore">
+
+<br>
+
+Ethnic-groups.html
+
+<img src="assets/photos/ethnic-groups-html.png" width="600" alt="code validatore">
+
+<br>
+
+Signup.html
+
+<img src="assets/photos/signup-html.png" width="600" alt="code validatore">
+
+<br>
+
+CSS
+
+<img src="assets/photos/css.png" width="600" alt="code validatore">
+
+<br>
+
+# Lighthouse
+
+<img src="assets/photos/lighthouse.png" width="600" alt="lighthouse">
+
+<br>
+
+# Bugs 
+
+## Unresolve
+
+* I had a lot of problem with media query, I wanted to make the navigation to go all vertical when when on a phone size but I couldn't.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
